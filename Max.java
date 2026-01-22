@@ -21,3 +21,13 @@ public class Count {
         System.out.print(elementCount);
     }
 }
+
+/*
+  Observation:
+              Elements that have at least one greater element are all elements except the
+              maximum elements in the array.
+              Step 1: Iterate and find the maximum element in the array.
+              Step 2: Count how many times the maximum element appears in the array.
+              Step 3: Subtract the count of maximum elements from the total number of
+              elements (N) to get the count of elements that have at least one greater element.
+ */
